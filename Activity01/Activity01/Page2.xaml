@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Activity01.Page2">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" >
+            <Image Source="img/shrek.png" Aspect="AspectFill" />
+            <Label Text="Eu sou o maioral!"
+                   FontSize="28" FontAttributes="Bold"
+                   TextColor="DarkRed" 
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Voltar" Clicked="bt1" 
+                    Padding="15" BackgroundColor="Orange"
+                    FontAttributes="Bold" FontSize="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
